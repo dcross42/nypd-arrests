@@ -10,8 +10,7 @@ print(db.conn)
 config = ConfigParser()
 config.read('config.ini')
 creds = config['database']
-print(creds)
-exit()
+
 
 
 #specify data types and date columns
